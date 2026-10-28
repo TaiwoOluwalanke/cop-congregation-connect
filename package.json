@@ -1,0 +1,15 @@
+{
+  "name": "cop-congregation-connect-vercel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2"
+  },
+  "devDependencies": {
+    "vercel": "^50.0.0"
+  }
+}
